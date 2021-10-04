@@ -1,0 +1,47 @@
+.weather-info {
+    border: 10px;
+    padding: 20px;
+}
+
+.navbar-text{
+    font-size: 52px;
+    color: rgba(255, 255, 255, .5);
+}
+
+.navbar{
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,104,121,1) 24%, rgba(0,212,255,1) 100%);
+}
+.city-list-item{
+    background-color: grey;
+    padding: 10%;
+    margin: 10%;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: lightskyblue;
+    margin-top: 15px;
+}
+
+.search-history{
+    padding: 5px;
+}
+
+input{
+    max-width: 75%;
+}
+
+.card-body{
+    border-bottom: 5px solid black;
+}
+
+@media screen and (max-width:785px){
+    *{
+        font-size: 10px;
+    }
+    .search-history{
+        font-size: 6px;
+    }
+}
